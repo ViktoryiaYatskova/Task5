@@ -1,0 +1,136 @@
+.main-window {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+
+    font-size: 0;
+}
+
+.new-game-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.7em;
+    color: #383474;
+
+    font-size: 1.5em;
+
+    background-color: #dce1f5;
+    border-radius: 15px;
+    outline: none;
+}
+
+span {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+
+    background: url('../img/picture3.png') no-repeat;
+    border: white 1px solid;
+    border-collapse: collapse;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+.popup {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    height: 60%;
+    padding: 1em;
+
+    border: 5px solid #c3d5ff;
+    border-radius: 15px;
+    background-color: white;
+
+    z-index:1002;
+    overflow: auto;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+    color: #383474;
+}
+.popup img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 80%;
+}
+.popup a {
+    display: block;
+    margin: 0 auto;
+
+    color: #aeaeae;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.element-1 {
+    background-position: 0 0;
+}
+.element-2 {
+    background-position: -75px 0;   
+}
+.element-3 {
+    background-position: -150px 0;  
+}
+.element-4 {
+    background-position: -225px 0;
+}
+
+.element-5 {
+    background-position: 0 -75px;
+}
+.element-6 {
+    background-position: -75px -75px;
+}
+.element-7 {
+    background-position: -150px -75px;
+}
+.element-8 {
+    background-position: -225px -75px;
+}
+
+.element-9 {
+    background-position: 0 -150px;
+}
+.element-10 {
+    background-position: -75px -150px;
+}
+.element-11 {
+    background-position: -150px -150px;
+}
+.element-12 {
+    background-position: -225px -150px;
+}
+
+.element-13 {
+    background-position: 0 -225px;
+}
+.element-14 {
+    background-position: -75px -225px;
+}
+.element-15 {
+    background-position: -150px -225px;
+}
+.empty-cell {
+    background: white none;
+}
